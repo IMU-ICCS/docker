@@ -17,8 +17,9 @@ Installation of Cloudiator using Docker (docker-compose).
 ## Use
 
 * REST-Server automatically starts on port 9000.
+* possible Modes: 'MULTI' and 'SINGLE'
 * edit env-template\
-  if auth.mode=testmode: \
+  if auth.mode=SINGLE: \
    user 'testuser' will be generated in userDB and [auth.token] will be its valid Token
    
 
